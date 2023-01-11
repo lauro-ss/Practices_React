@@ -1,18 +1,17 @@
 import logo from '../logo.svg'
+import '../funFactsCss/Header.css';
 
 function Header() {
     return (
         <header>
-            <div>
-                <img src={logo} alt="Logo do React" width="40px" />
-                <nav>
-                    <ul>
-                        <li>Option 1</li>
-                        <li>Option 2</li>
-                        <li>Option 3</li>
-                    </ul>
-                </nav>
-            </div>
+            <img src={logo} alt="Logo do React" width="40px" />
+            <nav>
+                <ul className='nav-list'>
+                    <li>Option 1</li>
+                    <li>Option 2</li>
+                    <li>Option 3</li>
+                </ul>
+            </nav>
             <div>
                 <p>React 1</p>
             </div>
