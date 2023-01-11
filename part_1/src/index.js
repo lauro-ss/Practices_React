@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './funFacts/Header';
 import Content from './funFacts/Content';
+import Footer from './funFacts/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 /*root.render(
@@ -12,10 +13,12 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     <App />
   </React.StrictMode>
 );*/
+
 root.render(
   <React.StrictMode>
     <Header />
     <Content />
+    <Footer year={new Date().getFullYear().toString()} />
   </React.StrictMode>
 );
 
