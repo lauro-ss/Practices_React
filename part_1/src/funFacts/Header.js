@@ -6,9 +6,11 @@ function Header() {
             <div>
                 <img src={logo} alt="Logo do React" width="40px" />
                 <nav>
-                    <ul>Option 1</ul>
-                    <ul>Option 2</ul>
-                    <ul>Option 3</ul>
+                    <ul>
+                        <li>Option 1</li>
+                        <li>Option 2</li>
+                        <li>Option 3</li>
+                    </ul>
                 </nav>
             </div>
             <div>
