@@ -1,0 +1,20 @@
+body {
+    background-color: #282D35;
+}
+
+main {
+    margin: 30px;
+}
+
+.content-list {
+    padding: 0;
+}
+
+.content-list>li {
+    margin-bottom: 10px;
+}
+
+.content-list>li::marker {
+    color: #61DAFB;
+    font-size: 20px;
+}
