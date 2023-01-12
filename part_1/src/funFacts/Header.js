@@ -4,7 +4,7 @@ import '../funFactsCss/Header.css';
 function Header() {
     return (
         <header>
-            <img src={logo} alt="Logo do React" width="40px" />
+            <img className="img-logo" src={logo} alt="Logo do React" />
             <nav>
                 <ul className='nav-list'>
                     <li>Option 1</li>

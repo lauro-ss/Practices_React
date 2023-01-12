@@ -17,3 +17,7 @@ nav .nav-list {
     flex-wrap: wrap;
     column-gap: 10px;
 }
+
+.img-logo{
+    width: 60px;
+}
