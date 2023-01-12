@@ -5,6 +5,7 @@ function Header() {
     return (
         <header>
             <img className="img-logo" src={logo} alt="Logo do React" />
+            <h2 className="logo-title">React Facts</h2>
             <nav>
                 <ul className='nav-list'>
                     <li>Option 1</li>

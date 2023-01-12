@@ -1,15 +1,18 @@
 header {
     display: flex;
     column-gap: 20px;
-    margin-left: 15px;
-    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #21222A;
+    align-items: center;
 }
 
 nav {
     flex-grow: 1;
+    font-weight: 600;
 }
 
-nav .nav-list {
+.nav-list {
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -18,6 +21,19 @@ nav .nav-list {
     column-gap: 10px;
 }
 
-.img-logo{
+.nav-list>li:hover {
+    color: #61DAFB;
+    cursor: pointer;
+}
+
+header>div {
+    font-weight: 600;
+}
+
+.img-logo {
     width: 60px;
+}
+
+.logo-title {
+    color: #61DAFB;
 }
