@@ -1,3 +1,5 @@
+import "../funFactsCss/Footer.css"
+
 function Footer(prop) {
     return (
         <footer>
